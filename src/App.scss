@@ -1,0 +1,16 @@
+.app {
+	height: 100%;
+
+	&__navbar-wrapper {
+		position: absolute;
+		width: 100%;
+		top: 0;
+	}
+
+	&__main-content-wrapper {
+		height: calc(100% - 8rem);
+		width: 100%;
+		position: absolute;
+		margin-top: 8rem;
+	}
+}
