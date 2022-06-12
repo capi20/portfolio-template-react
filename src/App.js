@@ -10,6 +10,7 @@ import Portfolio from "./containers/portfolio";
 import Contact from "./containers/contact";
 import Navbar from "./components/navBar";
 import particlesConfig from "./components/helpers/particlesConfig";
+import Theme from "./components/theme";
 
 function App() {
 	const location = useLocation();
@@ -33,6 +34,7 @@ function App() {
 				<Navbar />
 			</div>
 			<div className="app__main-content-wrapper">
+				<Theme />
 				<Routes>
 					<Route path="/" index element={<Home />} />
 					<Route path="/about" element={<About />} />
