@@ -4,7 +4,7 @@ export default {
 			value: "#1d1d1d"
 		}
 	},
-	fpsLimit: 90,
+	fpsLimit: 50,
 	interactivity: {
 		events: {
 			onClick: {
