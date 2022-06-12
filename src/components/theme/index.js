@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { ImCog } from "react-icons/im";
 import "./styles.scss";
+import setTheme from "../helpers/theme";
 
 const colorsArray = [
 	{
@@ -22,11 +23,15 @@ const colorsArray = [
 ];
 
 const Theme = () => {
-	const [theme, setTheme] = useState("yellow");
+	const [theme, setCurrentTheme] = useState("yellow");
 	const [toggle, setToggle] = useState(false);
 
+	useEffect(() => {
+		setTheme(theme);
+	}, [theme]);
+
 	const handleToggleTheme = (currentId) => {
-		setTheme(currentId);
+		setCurrentTheme(currentId);
 		setToggle(false);
 	};
 
