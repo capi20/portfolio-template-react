@@ -104,6 +104,46 @@
 	}
 }
 
+@media only screen and (max-width: 768px) {
+	.about__content {
+		flex-direction: column;
+
+		&__servicesWrapper {
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+
+			&__innerContent {
+				width: 25rem;
+				height: 25rem;
+				background: radial-gradient(
+					100px,
+					var(--selected-theme-main-color),
+					transparent 120%
+				);
+
+				div {
+					&:nth-child(1) {
+						top: -15%;
+						left: 38.5%;
+					}
+					&:nth-child(2) {
+						right: -11%;
+						top: 41%;
+					}
+					&:nth-child(3) {
+						bottom: -12%;
+						left: 39%;
+					}
+					&:nth-child(4) {
+						top: 41.5%;
+						left: -12%;
+					}
+				}
+			}
+		}
+	}
+}
+
 @keyframes rotation {
 	100% {
 		transform: rotate(360deg);
