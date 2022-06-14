@@ -3,6 +3,7 @@ import { GiSkills } from "react-icons/gi";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import { skillsData } from "./utils";
 import { Line } from "rc-progress";
+import "./styles.scss";
 
 const Skills = () => {
 	return (
@@ -14,7 +15,7 @@ const Skills = () => {
 						<h3 className="skills__content-wrapper__inner-content__category">
 							{item.label}
 						</h3>
-						<div>
+						<div className="skills__content-wrapper__inner-content__skills">
 							{item.data.map((dataItem, index) => (
 								<div className="progressbar-wrapper" key={index}>
 									<p>{dataItem.skillName}</p>
