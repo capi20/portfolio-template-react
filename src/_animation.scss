@@ -1,0 +1,59 @@
+@keyframes rotation {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes typingEffect {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+@keyframes slideInTop {
+	from {
+		transform: translateY(600px);
+	}
+	to {
+		transform: translateX(0px);
+	}
+}
+
+@keyframes slideInRight {
+	from {
+		transform: translateX(-800px);
+	}
+	to {
+		transform: translateX(0px);
+	}
+}
+
+@keyframes slideInLeft {
+	from {
+		transform: translateX(500px);
+	}
+	to {
+		transform: translateX(0px);
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

@@ -1,8 +1,11 @@
+@import "../../animation";
+
 .skills {
 	&__content-wrapper {
 		display: flex;
 		padding: 2rem;
 		gap: 2rem;
+		animation: slideInRight 1s;
 
 		&__inner-content {
 			display: flex;
@@ -47,6 +50,7 @@
 
 			.progressbar-wrapper {
 				padding-top: 5rem;
+				animation: fadeIn 2s;
 
 				p {
 					font-size: 1.6rem;

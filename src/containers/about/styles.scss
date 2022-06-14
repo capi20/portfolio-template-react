@@ -1,3 +1,5 @@
+@import "../../animation";
+
 .about {
 	&__content {
 		display: flex;
@@ -141,29 +143,5 @@
 				}
 			}
 		}
-	}
-}
-
-@keyframes rotation {
-	100% {
-		transform: rotate(360deg);
-	}
-}
-
-@keyframes slideInRight {
-	from {
-		transform: translateX(-800px);
-	}
-	to {
-		transform: translateX(0px);
-	}
-}
-
-@keyframes slideInLeft {
-	from {
-		transform: translateX(500px);
-	}
-	to {
-		transform: translateX(0px);
 	}
 }
