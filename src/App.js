@@ -9,7 +9,7 @@ import Resume from "./containers/resume";
 import Portfolio from "./containers/portfolio";
 import Contact from "./containers/contact";
 import Navbar from "./components/navBar";
-import particlesConfig from "./components/helpers/particlesConfig";
+import particlesConfig from "./helpers/particlesConfig";
 import Theme from "./components/theme";
 
 function App() {

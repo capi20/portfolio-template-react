@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { ImCog } from "react-icons/im";
 import "./styles.scss";
-import setTheme from "../helpers/theme";
+import setTheme from "../../helpers/theme";
 
 const colorsArray = [
 	{
