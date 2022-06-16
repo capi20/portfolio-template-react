@@ -24,7 +24,10 @@ const Portfolio = () => {
 			<div className="portfolio__content">
 				<ul className="portfolio__content__filter">
 					{filterOptions.map((option, key) => (
-						<li key={key} onClick={() => handleFilter(option.id)}>
+						<li
+							key={key}
+							onClick={() => handleFilter(option.id)}
+							className={option.id === filterValue ? "active" : ""}>
 							{option.label}
 						</li>
 					))}
@@ -36,6 +39,12 @@ const Portfolio = () => {
 								<a>
 									<img src={item.image} alt="project image" />
 								</a>
+							</div>
+							<div className="overlay">
+								<div>
+									<p>{item.projectName}</p>
+									<button>Visit</button>
+								</div>
 							</div>
 						</div>
 					))}
