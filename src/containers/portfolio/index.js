@@ -2,7 +2,7 @@ import React from "react";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import { AiFillProject } from "react-icons/ai";
 import { filterOptions, portfolioData } from "./utils";
-
+import "./styles.scss";
 const Portfolio = () => {
 	return (
 		<section id="portfolio" className="portfolio">
