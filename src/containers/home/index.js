@@ -14,8 +14,8 @@ const Home = () => {
 			</div>
 			<div className="contact-me">
 				<div className="contact-me__buttons-wrapper">
-					<button>Hire me</button>
-					<a>Download resume</a>
+					<button className="primary-btn">Hire me</button>
+					<a className="primary-btn">Download resume</a>
 				</div>
 				<div className="contact-me__socials-wrapper">
 					<FaLinkedin size={32} />

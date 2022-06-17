@@ -12,9 +12,7 @@ const Skills = () => {
 			<div className="skills__content-wrapper">
 				{skillsData.map((item, key) => (
 					<div key={key} className="skills__content-wrapper__inner-content">
-						<h3 className="skills__content-wrapper__inner-content__category">
-							{item.label}
-						</h3>
+						<h3 className="section-heading">{item.label}</h3>
 						<div className="skills__content-wrapper__inner-content__skills">
 							{item.data.map((dataItem, index) => (
 								<div className="progressbar-wrapper" key={index}>
