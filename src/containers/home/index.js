@@ -7,7 +7,7 @@ const Home = () => {
 		<section className="home" id="home">
 			<div className="home__text-wrapper">
 				<h1>
-					Hello, I'm Shyam
+					Hello, I'm Jack
 					<br />
 					Front End Developer
 				</h1>

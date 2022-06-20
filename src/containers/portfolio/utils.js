@@ -1,8 +1,4 @@
-import ImageOne from "../../images/bazaarPro.PNG";
-import ImageTwo from "../../images/bookPro.png";
-import ImageThree from "../../images/budgetPro.png";
-import ImageFour from "../../images/chatPro.PNG";
-import ImageFive from "../../images/homeShowPro.PNG";
+import ImageOne from "../../images/dummy.jpg";
 
 export const filterOptions = [
 	{
@@ -22,32 +18,32 @@ export const filterOptions = [
 export const portfolioData = [
 	{
 		sectionId: 2,
-		projectName: "Sbka Bazaar",
-		projectLink: "https://sbka-bazaar.web.app/",
+		projectName: "E-commerce app",
+		projectLink: "#",
 		image: ImageOne
 	},
 	{
 		sectionId: 2,
-		projectName: "Book store",
-		projectLink: "https://e-commerce-app-f4775.web.app/",
-		image: ImageTwo
+		projectName: "Online Book store",
+		projectLink: "#",
+		image: ImageOne
 	},
 	{
 		sectionId: 3,
 		projectName: "Budget Manager",
-		projectLink: "https://gulluck.herokuapp.com/",
-		image: ImageThree
+		projectLink: "#",
+		image: ImageOne
 	},
 	{
 		sectionId: 2,
 		projectName: "Chat App",
-		projectLink: "https://chat-web-app-e97c8.web.app/",
-		image: ImageFour
+		projectLink: "#",
+		image: ImageOne
 	},
 	{
 		sectionId: 2,
 		projectName: "OTT platform",
-		projectLink: "https://homeshow-434a4.web.app/",
-		image: ImageFive
+		projectLink: "#",
+		image: ImageOne
 	}
 ];

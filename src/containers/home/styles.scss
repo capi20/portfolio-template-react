@@ -29,7 +29,7 @@
 	.contact-me {
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
+		gap: 2rem;
 		align-items: center;
 		margin-top: 10px;
 		animation: slideInTop 2.5s;
@@ -41,7 +41,7 @@
 
 		&__socials-wrapper {
 			display: flex;
-			gap: 10px;
+			gap: 1rem;
 
 			svg {
 				color: var(--selected-theme-main-color);

@@ -18,18 +18,13 @@ const About = () => {
 					<div className="about__content__personalWrapper--intro">
 						<h3 className="developerContent">Front end developer</h3>
 						<p>
-							I completed my B.Tech in Computer Science & Engineering from
-							Jaypee Institute of Information Technology, Noida. I'm a
-							passionate front-end developer with 2+ years of expercience in
-							front end development. I am currently working as a associate
-							technology L2 at Publicis Sapient. I aspire to create web
-							applications that not only operates efficiently behind the scene,
-							but also provides rich user experiences. I love learning new and
-							better ways to create seamless user experiences with clean,
-							efficient, and scalable code. For me work is an ongoing education,
-							and work place is an institute where every one has something to
-							share. Besides of the professional things, I like to read books
-							and watch movies in my free time.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+							enim ad minim veniam, quis nostrud exercitation ullamco laboris
+							nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+							reprehenderit in voluptate velit esse cillum dolore eu fugiat
+							nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+							sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</p>
 					</div>
 					<div className="about__content__personalWrapper--details">

@@ -36,14 +36,18 @@ const Portfolio = () => {
 					{filteredPortfolioData.map((item, key) => (
 						<div key={key} className="portfolio__content__cards__item">
 							<div className="portfolio__content__cards__item__img-wrapper">
-								<a>
-									<img src={item.image} alt="project image" />
-								</a>
+								<img src={item.image} alt="project image" />
 							</div>
 							<div className="overlay">
 								<div>
 									<p>{item.projectName}</p>
-									<button>Visit</button>
+									<a
+										className="secondary-btn"
+										href={item.projectLink}
+										target="_blank"
+										rel="noreferrer">
+										Visit
+									</a>
 								</div>
 							</div>
 						</div>

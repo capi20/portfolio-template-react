@@ -1,30 +1,30 @@
 export const data = {
 	experience: [
 		{
-			title: "Associate Technology L2",
-			subTitle: "Publicis Sapient, Gurgoan, India",
-			description: "Front end developer",
-			date: "February 2022 - present"
+			title: "UI developer L2",
+			subTitle: "XYZ, India",
+			description: "Create interactive user interface",
+			date: "2022 - present"
 		},
 		{
-			title: "Survey Programmer",
-			subTitle: "Dynata, Noida, India",
-			description: "Online surveys, data collection",
-			date: "July 2019 - February 2022"
+			title: "UI developer L1",
+			subTitle: "ABC, India",
+			description: "Create interactive user interface",
+			date: "2021 - 2022"
 		}
 	],
 	education: [
 		{
 			title: "B.Tech",
-			subTitle: "Jaypee Institute of Information Technology, Noida, India",
-			description: "Computer Science Engineering",
-			date: "2015 - 2019"
+			subTitle: "college name",
+			description: "CSE",
+			date: "2017 - 2021"
 		},
 		{
 			title: "12th",
-			subTitle: "Shri Gopal Inter College, Auraiya, India",
+			subTitle: "School name",
 			description: "12th grade in science",
-			date: "2013 - 2014"
+			date: "2015 - 2017"
 		}
 	]
 };

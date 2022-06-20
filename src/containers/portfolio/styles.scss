@@ -51,14 +51,10 @@
 				&__img-wrapper {
 					height: 100%;
 
-					a {
-						height: 100%;
-
-						img {
-							height: inherit;
-							object-fit: cover;
-							width: 100%;
-						}
+					img {
+						height: inherit;
+						object-fit: cover;
+						width: 100%;
 					}
 				}
 
@@ -83,6 +79,7 @@
 						text-align: center;
 
 						p {
+							margin-bottom: 1.5rem;
 							color: var(--selected-theme-sub-text-color);
 							font-weight: 500;
 							font-size: 3rem;
@@ -90,18 +87,6 @@
 							overflow: hidden;
 							animation: typingEffect 1s steps(30, end);
 							white-space: nowrap;
-						}
-
-						button {
-							cursor: pointer;
-							margin-top: 1.5rem;
-							padding: 1rem 7rem;
-							font-size: 2rem;
-							background-color: transparent;
-							color: var(--selected-theme-sub-text-color);
-							border: 1.5px solid var(--selected-theme-sub-text-color);
-							border-radius: 4px;
-							font-weight: 500;
 						}
 					}
 				}

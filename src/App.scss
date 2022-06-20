@@ -66,3 +66,14 @@
 		background: var(--selected-theme-main-color);
 	}
 }
+
+.secondary-btn {
+	cursor: pointer;
+	padding: 1rem 7rem;
+	font-size: 2rem;
+	background-color: transparent;
+	color: var(--selected-theme-sub-text-color);
+	border: 1.5px solid var(--selected-theme-sub-text-color);
+	border-radius: 4px;
+	font-weight: 500;
+}

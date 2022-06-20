@@ -1,7 +1,7 @@
 export const personaldata = [
 	{
 		label: "Name",
-		value: "Shyam Ji Gupta"
+		value: "Jack"
 	},
 	{
 		label: "Age",
@@ -17,6 +17,6 @@ export const personaldata = [
 	},
 	{
 		label: "Contact No",
-		value: "+91 7123456789"
+		value: "1234567890"
 	}
 ];
